@@ -4,7 +4,7 @@ var spotify = require('node-spotify-api');
 
 console.log('this is loaded')
 
-var twitterKeys = new twitter ( {
+var twitterKeys = new twitter ({
  consumer_key: "Gp0P8ifvjg7Ric9rPyaMvpaNy",
  consumer_secret: "kcLZJ5I1khl6untNih5Mc1Hgn7SiV2XML6OaLa7HMKAuVDnu2n",
  access_token_key: "915747350408286209-xD7z5TfEQmFCT8fT2W4SrjbQZnRW96w",
