@@ -1,4 +1,5 @@
 //Grab data from keys.js
+console.log(client);
 var keys = require('./keys.js');
 var request = require('request');
 var client = keys.twitterKeys;
@@ -20,9 +21,9 @@ for (var i=3; i<nodeArgv.length; i++){
 
 //switch case
 switch(command){
-  case "my-tweets":
-    showTweets();
-  break;
+  //case "my-tweets":
+    //showTweets();
+  //break;
 
   case "spotify-this-song":
     if(x){
