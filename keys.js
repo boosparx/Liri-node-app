@@ -1,4 +1,7 @@
 //Java Script Keys
+var twitter = require('twitter');
+var spotify = require('node-spotify-api'); 
+
 console.log('this is loaded')
 
 var twitterKeys = {
@@ -9,4 +12,7 @@ var twitterKeys = {
 	
 }
 
-module.exports = twitterKeys;
+ module.exports = {
+        twitterKeys: twitterKeys,
+        spotifyKeys: spotifyKeys
+ }
