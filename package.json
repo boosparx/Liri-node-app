@@ -1,21 +1,24 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "creating a liri app",
+  "description": "app that finds info ",
   "main": "liri.js",
-  "dependencies": {
-    "request": "^2.75.0",
-    "spotify": "^0.3.0",
-    "twitter": "^1.4.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boosparx/Liri-node-app.git"
-    
   },
-  
+  "author": "Tony Caio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boosparx/Liri-node-app/issues"
+  },
+  "homepage": "https://github.com/boosparx/Liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
 }
