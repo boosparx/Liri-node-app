@@ -61,8 +61,16 @@ function showTweets(){
         console.log("-----------------------");
         
         //adds text to log.txt file
-        fs.appendFile('log.txt', "@boo_sparx: " + tweets[i].text + " Created At: " + date.substring(0, 19));
-        fs.appendFile('log.txt', "-----------------------");
+        fs.appendFile('log.txt', "@boo_sparx: " + tweets[i].text + " Created At: " + date.substring(0, 19),(err)=>{
+            
+        if(err) throw err;
+        }); 
+            
+        fs.appendFile('log.txt', "-----------------------"); (err)=>{
+             
+        if(err) throw err;
+            
+        });
       }
     }else{
       console.log('Error occurred');

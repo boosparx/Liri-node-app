@@ -12,7 +12,13 @@ var twitterKeys = new twitter ( {
 	
 });
 
+var spotifyKeys = new spotify({
+ id: "cd94f047138640f1bc92dff1ecc75cd9",
+ secret: "679b891f85fb4efab4a3f3c2f04af436",
+    
+});
+
  module.exports = {
         twitterKeys: twitterKeys,
-        
+        spotifyKeys: spotifyKeys,
  }
