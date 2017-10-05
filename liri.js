@@ -99,7 +99,7 @@ function spotifySong(song){
 }
 
 function omdbData(movie){
-  var omdbURL = 'http://www.omdbapi.com/?t=' + movie + '&plot=short&tomatoes=true';
+  var omdbURL = 'http://www.omdbapi.com/?t=' + movie + '&plot=short&tomatoes=true&apikey=40e9cece';
 
   request(omdbURL, function (error, response, body){
     if(!error && response.statusCode == 200){
